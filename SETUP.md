@@ -8,6 +8,7 @@ including payment processing, so this can stay free even after PayMongo
 goes live (Vercel's free tier does not allow that).
 
 **Note**: this is a separate Cloudflare *project* from your existing "Four
+
 States of Life" Pages site — a different site needs its own project, even
 though both live under the same Cloudflare account.
 
