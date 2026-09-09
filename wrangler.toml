@@ -1,0 +1,13 @@
+# wrangler.toml — tells Cloudflare Pages which D1 database to bind as "DB"
+# so functions/api/*.js can access it via env.DB.
+#
+# After creating your D1 database (SETUP.md Step 1), replace
+# database_id below with the ID Cloudflare gives you.
+
+name = "blueprint-designer-live"
+compatibility_date = "2024-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "blueprint-designer-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
